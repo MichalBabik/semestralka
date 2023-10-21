@@ -1,0 +1,43 @@
+
+.my-page-body {
+    background-image: url("Images/Stormlight_Archive.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 300vh;
+    .article-img {
+        width: 450px;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.container {
+    background-color: snow;
+}
+
+.main-header {
+    background-color: snow;
+}
+
+.main-footer {
+    background-color: snow;
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.navbar-dark {
+    /*background-color: black !important;*/
+}
+
+#navbar {
+    /*background-color: lightslategray !important;*/
+}
+
+
+
+
