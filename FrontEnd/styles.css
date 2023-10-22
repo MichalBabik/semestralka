@@ -1,46 +1,92 @@
-.my-page-body {
-    background-image: url("Images/Stormlight_Archive.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 300vh;
-
-    .article-img {
-
-        float: left;
-        margin-right: 15px;
-        margin-bottom: 15px;
-    }
+.main-title {
+    width: 50%;
 }
 
-.container {
-    background-color: snow;
+.home-article-header {
+    font-weight: bold;
 }
 
 .main-header {
     background-color: snow;
 }
 
-.main-footer {
-    background-color: snow;
+.my-page-body {
+    background-image: url("Images/Stormlight_Archive.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
 
+    .outlook-article-img {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        border: 5px solid black;
+    }
+    .writer-img > img {
+        margin-top: 30px;
+        width: 50%;
+        border-radius: 50%;
+        align-self: center;
+    }
+}
+
+.home-text-article {
+
+}
+
+.container {
+    background-color: snow;
+}
+
+.main-footer {
     .social-img {
         width: 30px;
         margin: 5px;
     }
 }
 
-.link-top10 {
+.hyper-link {
     text-decoration: none;
     color: black;
 }
 
-.link-top10:hover {
+.hyper-link:hover {
     color: darkgray;
     transition: 0.2s;
 }
 
+.img-link:hover {
+    .outlook-article-img {
+        border: 5px solid darkgray;
+        transition: 0.2s;
+    }
+}
 
+.interactive-link:hover {
+    cursor: pointer;
+}
+
+.article-annotation {
+    color: lightgray;
+}
+
+/*padding*/
+.spacer {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+/*article page*/
+.text-article {
+    font-size: 120%;
+    text-align: justify;
+    .article-img {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
 
 
