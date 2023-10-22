@@ -5,9 +5,9 @@
     background-position: center;
     background-attachment: fixed;
     height: 300vh;
+
     .article-img {
-        width: 450px;
-        height: 300px;
+
         float: left;
         margin-right: 15px;
         margin-bottom: 15px;
@@ -24,13 +24,22 @@
 
 .main-footer {
     background-color: snow;
+
     .social-img {
         width: 30px;
         margin: 5px;
     }
 }
 
+.link-top10 {
+    text-decoration: none;
+    color: black;
+}
 
+.link-top10:hover {
+    color: darkgray;
+    transition: 0.2s;
+}
 
 
 
