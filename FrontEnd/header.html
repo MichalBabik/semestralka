@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Header| FantasyArchive</title>
@@ -9,10 +9,39 @@
     <div class="container">
         <div class="row">
             <div class="col-11">
-                <a href="page-home.html"><img class="main-title" src="Images/FantasyArchive-Logo.png" ALT="FantasyArchive logo"></a>
+                <a href="page-home.html"><img class="main-title" src="Images/FantasyArchive-Logo.png"
+                                              ALT="FantasyArchive logo"></a>
             </div>
+
             <div class="col-1 align-self-end">
-                <a class="sign-in-img" href="log-in.html"><img src="Images/icons/box-arrow-in-right.svg" alt="Icon for signing in" style="float: right;"></a>
+                <li class="dropdown">
+
+                    <a class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+                        <img src="Images/icons/person-circle.svg" alt="Account" style="float: right;">
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="page-profile.html">Profile</a></li>
+
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li>
+                            <a class="dropdown-item" href="page-registration.html">Register</a>
+
+<!--                            <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#sign-modal" href="#"> Sign in-->
+<!--                                <img src="Images/icons/box-arrow-in-right.svg" alt="Icon for signing in">-->
+<!--                            </a>-->
+                            <a class="dropdown-item" href="page-sign-in.html">Sign in
+                                <img src="Images/icons/box-arrow-in-right.svg" alt="Icon for signing in">
+                            </a>
+
+                            <a class="dropdown-item" href="#">Sign out
+                                <img src="Images/icons/box-arrow-right.svg" alt="Icon for signing out">
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
             </div>
         </div>
     </div>
@@ -36,6 +65,9 @@
                     <a class="nav-link" href="page-not-done-yet.html">Discussion</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="page-users.html">Users</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="page-not-done-yet.html">About us</a>
                 </li>
             </ul>
@@ -46,4 +78,63 @@
         </div>
     </div>
 </nav>
+
+<div id="error"></div>
+
+<!--Modal Sign in pop-up-->
+<!--<div class="modal fade" id="sign-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">-->
+<!--    <div class="modal-dialog">-->
+<!--        <div class="modal-content">-->
+
+<!--            <div class="modal-header">-->
+<!--                <h5 class="modal-title" id="sign-modal-title">Login</h5>-->
+<!--                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+<!--            </div>-->
+
+<!--                <div class="modal-body">-->
+<!--                    <div class="container">-->
+
+<!--                        <form id="sign-in-form" method="GET">-->
+<!--                        <div class="form-control bg-dark text-light">-->
+<!--                            <label for="sign-email">Email address:</label>-->
+<!--                            <input class="form-control" type="email" id="sign-email" required >-->
+<!--                            <small>Error message</small>-->
+<!--                        </div>-->
+
+<!--                            <div class="spacer"></div>-->
+
+<!--                        <div class="form-control bg-dark text-light">-->
+<!--                            <label for="sign-password">Password:</label>-->
+<!--                            <input class="form-control" type="password" id="sign-password" required>-->
+<!--                            <small>Error message</small>-->
+<!--                        </div>-->
+
+<!--                        <div class="spacer"></div>-->
+
+<!--                        <div class="col-12">-->
+<!--                            <button class="btn btn-dark" type="submit">Sign in</button>-->
+<!--                        </div>-->
+<!--                        <div class="spacer"></div>-->
+<!--                        </form>-->
+
+<!--                    </div>-->
+
+<!--                    <div class="modal-footer">-->
+<!--                        <div class="container">-->
+<!--                            <div class="row text-center">-->
+<!--                                <div class="spacer"></div>-->
+<!--                                <div class="col-12">-->
+<!--                                    <a class="register link-dark" href="page-registration.html" >Create a new account.</a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
 

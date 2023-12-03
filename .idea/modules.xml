@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/semestralka.iml" filepath="$PROJECT_DIR$/.idea/semestralka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fantasy-archive-fe/.idea/fantasy-archive-FrontEnd.iml" filepath="$PROJECT_DIR$/../fantasy-archive-fe/.idea/fantasy-archive-FrontEnd.iml" />
     </modules>
   </component>
 </project>

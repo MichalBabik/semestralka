@@ -114,9 +114,47 @@
     padding-bottom: 10px;
 }
 
+.modal-body{
+    background-color: snow;
+}
+
+.modal-header{
+    background-color: snow;
+}
+
+.modal-footer{
+    background-color: snow;
+}
+
+.modal-dialog .small {
+    visibility: hidden;
+    position:  absolute;
+}
+
+.form-control small {
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
 body {
     background-color: rgb(33, 37, 41);
 }
+
+
+
+
 
 
 
