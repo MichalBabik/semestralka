@@ -1,4 +1,3 @@
 # semestralka
-Seminar work for VAII
+Seminar work for VAII front-end apllication
 
-Completed files that work as they should are with page in their name others .html files are only components.
